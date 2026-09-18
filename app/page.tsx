@@ -12,6 +12,7 @@ import {
   IconTabItem,
   Tabs,
   TextArea,
+  H2,
 } from '@salutejs/sdds-insol-next';
 import { IconClose, IconDownload, IconPlasma } from '@salutejs/plasma-icons';
 
@@ -51,6 +52,7 @@ export default function Home() {
         maxWidth: 960,
       }}
     >
+      <H2>V2</H2>
       <Section title="Button">
         <Button text="Default" view="default" />
         <Button text="Accent" view="accent" />
