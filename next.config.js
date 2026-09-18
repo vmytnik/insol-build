@@ -1,13 +1,9 @@
 module.exports = {
-  turbopack: {
-    rules: {
-      "*.svg": {
-        loaders: ["@svgr/webpack"],
-        as: "*.js",
-        condition: {
-          path: /abc/,
-        },
-      },
-    },
-  },
+  reactStrictMode: true,
+  transpilePackages: [
+    '@salutejs/sdds-insol-next',
+    '@salutejs/plasma-new-hope',
+    '@salutejs/plasma-icons',
+    '@salutejs/sdds-themes',
+  ],
 };
