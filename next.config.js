@@ -1,4 +1,9 @@
 module.exports = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
   reactStrictMode: true,
   transpilePackages: [
     '@salutejs/sdds-insol-next',
